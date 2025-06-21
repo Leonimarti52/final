@@ -1,0 +1,3 @@
+[console_scripts]
+node = arldu.comu:main
+

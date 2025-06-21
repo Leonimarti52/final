@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/arldu/arldu.egg-info
+writing ../../build/arldu/arldu.egg-info/PKG-INFO
+writing dependency_links to ../../build/arldu/arldu.egg-info/dependency_links.txt
+writing entry points to ../../build/arldu/arldu.egg-info/entry_points.txt
+writing requirements to ../../build/arldu/arldu.egg-info/requires.txt
+writing top-level names to ../../build/arldu/arldu.egg-info/top_level.txt
+writing manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+reading manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+writing manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leoni/oak_ws/build/arldu/build
+creating /home/leoni/oak_ws/build/arldu/build/lib
+creating /home/leoni/oak_ws/build/arldu/build/lib/arldu
+copying arldu/comu.py -> /home/leoni/oak_ws/build/arldu/build/lib/arldu
+copying arldu/__init__.py -> /home/leoni/oak_ws/build/arldu/build/lib/arldu
+running install
+running install_lib
+creating /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+copying /home/leoni/oak_ws/build/arldu/build/lib/arldu/comu.py -> /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+copying /home/leoni/oak_ws/build/arldu/build/lib/arldu/__init__.py -> /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+byte-compiling /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu/comu.py to comu.cpython-310.pyc
+byte-compiling /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/leoni/oak_ws/install/arldu/share/ament_index
+creating /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index
+creating /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index/packages
+copying resource/arldu -> /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index/packages
+copying package.xml -> /home/leoni/oak_ws/install/arldu/share/arldu
+running install_egg_info
+Copying ../../build/arldu/arldu.egg-info to /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node script to /home/leoni/oak_ws/install/arldu/lib/arldu
+writing list of installed files to '/home/leoni/oak_ws/build/arldu/install.log'

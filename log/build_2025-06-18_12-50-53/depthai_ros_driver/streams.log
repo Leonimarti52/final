@@ -1,0 +1,225 @@
+[0.012s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leoni/oak_ws/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/leoni/oak_ws/install/depthai_ros_driver
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.407s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.657s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.662s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.670s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.741s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.842s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.875s] -- Looking for pthread.h
+[0.924s] -- Looking for pthread.h - found
+[0.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE  
+[1.274s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.275s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.275s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.351s] -- Configuring done
+[1.385s] -- Generating done
+[1.406s] -- Build files have been written to: /home/leoni/oak_ws/build/depthai_ros_driver
+[1.418s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leoni/oak_ws/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/leoni/oak_ws/install/depthai_ros_driver
+[1.419s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_driver -- -j16 -l16
+[1.457s] [  2%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/utils.cpp.o[0m
+[1.457s] [  5%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sys_logger.cpp.o[0m
+[1.457s] [  8%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/img_pub.cpp.o[0m
+[1.457s] [ 11%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/camera_param_handler.cpp.o[0m
+[1.457s] [ 17%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cpp.o[0m
+[1.457s] [ 17%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/base_node.cpp.o[0m
+[1.458s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/nn_param_handler.cpp.o[0m
+[1.458s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/tof_param_handler.cpp.o[0m
+[1.460s] [ 31%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cpp.o[0m
+[1.460s] [ 31%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sensor_param_handler.cpp.o[0m
+[1.460s] [ 31%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/stereo_param_handler.cpp.o[0m
+[1.460s] [ 34%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/feature_tracker_param_handler.cpp.o[0m
+[1.461s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/pipeline_gen_param_handler.cpp.o[0m
+[1.467s] [ 40%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sync_param_handler.cpp.o[0m
+[1.467s] [ 40%] Built target ament_cmake_python_copy_depthai_ros_driver
+[2.332s] running egg_info
+[2.333s] creating depthai_ros_driver.egg-info
+[2.334s] writing depthai_ros_driver.egg-info/PKG-INFO
+[2.335s] writing dependency_links to depthai_ros_driver.egg-info/dependency_links.txt
+[2.335s] writing top-level names to depthai_ros_driver.egg-info/top_level.txt
+[2.336s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[2.342s] reading manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[2.343s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[2.413s] [ 40%] Built target ament_cmake_python_build_depthai_ros_driver_egg
+[12.046s] [ 42%] [32m[1mLinking CXX shared library libdepthai_ros_driver_common.so[0m
+[12.529s] [ 42%] Built target depthai_ros_driver_common
+[12.542s] [ 45%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o[0m
+[12.543s] [ 48%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/segmentation.cpp.o[0m
+[12.543s] [ 51%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o[0m
+[12.543s] [ 54%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o[0m
+[12.543s] [ 57%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/imu.cpp.o[0m
+[12.544s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/rgb.cpp.o[0m
+[12.545s] [ 62%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.cpp.o[0m
+[12.545s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/mono.cpp.o[0m
+[12.545s] [ 68%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/stereo.cpp.o[0m
+[12.546s] [ 74%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/tof.cpp.o[0m
+[12.546s] [ 74%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/thermal.cpp.o[0m
+[12.546s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sync.cpp.o[0m
+[25.391s] [ 80%] [32m[1mLinking CXX shared library libdepthai_ros_driver_nn_nodes.so[0m
+[25.799s] [ 82%] [32m[1mLinking CXX shared library libdepthai_ros_driver_sensor_nodes.so[0m
+[25.954s] [ 82%] Built target depthai_ros_driver_nn_nodes
+[26.442s] [ 82%] Built target depthai_ros_driver_sensor_nodes
+[26.457s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o[0m
+[26.457s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/pipeline_generator.cpp.o[0m
+[26.457s] [ 91%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/base_types.cpp.o[0m
+[35.445s] [ 94%] [32m[1mLinking CXX shared library libdepthai_ros_driver.so[0m
+[36.192s] [ 94%] Built target depthai_ros_driver
+[36.206s] [ 97%] [32mBuilding CXX object CMakeFiles/camera_node.dir/src/camera_node.cpp.o[0m
+[39.457s] [100%] [32m[1mLinking CXX executable camera_node[0m
+[39.953s] [100%] Built target camera_node
+[39.960s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_driver -- -j16 -l16
+[39.962s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_driver
+[39.967s] -- Install configuration: ""
+[39.967s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/plugins.xml
+[39.968s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.sh
+[39.968s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.dsv
+[39.968s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch
+[39.968s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/oak_t.launch.py
+[39.968s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rgbd_pcl.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/calibration.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/sr_rgbd_pcl.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/sr_poe_rgbd_pcl.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_multicam.launch.py
+[39.969s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_segmentation.launch.py
+[39.970s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
+[39.970s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/stereo_from_rosbag.launch.py
+[39.970s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera_as_part_of_a_robot.launch.py
+[39.970s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rtabmap.launch.py
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/pointcloud.launch.py
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_t.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_pro_w.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/camera.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_rgbd.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/stereo_from_rosbag.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration.yaml
+[39.971s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/spatial_yolo.yaml
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/yolo.json
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/mobilenet.json
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/segmentation.json
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/segmentation.yaml
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/right.yaml
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/left.yaml
+[39.972s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/rgb.yaml
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/multicam.rviz
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/rgbd.rviz
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/segmentation.rviz
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rgbd.yaml
+[39.973s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/isaac_vslam.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/multicam_example.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/low_bandwidth.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_sr.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_poe_rgbd.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/pcl.yaml
+[39.974s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
+[39.980s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so" to ""
+[39.980s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
+[39.986s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so" to ""
+[39.986s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
+[39.989s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so" to ""
+[39.989s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so
+[39.994s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so" to ""
+[39.995s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets.cmake
+[39.995s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets-noconfig.cmake
+[39.995s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/depthai_ros_driver/camera_node
+[39.995s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_driver/lib/depthai_ros_driver/camera_node" to ""
+[39.995s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.sh
+[39.995s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.dsv
+[39.996s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.2-py3.10.egg-info
+[39.996s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.2-py3.10.egg-info/top_level.txt
+[39.996s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.2-py3.10.egg-info/PKG-INFO
+[39.996s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.2-py3.10.egg-info/dependency_links.txt
+[39.996s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.11.2-py3.10.egg-info/SOURCES.txt
+[39.997s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver
+[39.997s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py
+[40.023s] Listing '/home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver'...
+[40.023s] Compiling '/home/leoni/oak_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py'...
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/pipeline_generator.hpp
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_types.hpp
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_pipeline.hpp
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sys_logger.hpp
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/base_node.hpp
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors
+[40.026s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_wrapper.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_helpers.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sync.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/imu.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/mono.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/rgb.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/feature_tracker.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/img_pub.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/tof.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/stereo.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/thermal.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/segmentation.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_wrapper.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/detection.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_detection.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_helpers.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_nn_wrapper.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/camera.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/utils.hpp
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers
+[40.027s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/nn_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/tof_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/feature_tracker_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/base_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/stereo_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sync_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sensor_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/pipeline_gen_param_handler.hpp
+[40.028s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/camera_param_handler.hpp
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/imu_param_handler.hpp
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/ament_index/resource_index/package_run_dependencies/depthai_ros_driver
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/ament_index/resource_index/parent_prefix_path/depthai_ros_driver
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.sh
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.dsv
+[40.029s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.sh
+[40.030s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.dsv
+[40.030s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.bash
+[40.030s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.sh
+[40.030s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.zsh
+[40.030s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.dsv
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/ament_index/resource_index/packages/depthai_ros_driver
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/ament_index/resource_index/depthai_ros_driver__pluginlib__plugin/depthai_ros_driver
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/ament_index/resource_index/rclcpp_components/depthai_ros_driver
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport.cmake
+[40.031s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport-noconfig.cmake
+[40.032s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.032s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+[40.032s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[40.032s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.032s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig.cmake
+[40.033s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig-version.cmake
+[40.033s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.xml
+[40.034s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_driver

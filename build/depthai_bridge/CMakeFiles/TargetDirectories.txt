@@ -1,0 +1,10 @@
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/uninstall.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/depthai_bridge_uninstall.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/depthai_bridge.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/test.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/edit_cache.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/rebuild_cache.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/list_install_components.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/install.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/install/local.dir
+/home/leoni/oak_ws/build/depthai_bridge/CMakeFiles/install/strip.dir

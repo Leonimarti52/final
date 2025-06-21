@@ -1,0 +1,12 @@
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:90: CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:160: CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:76: CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:174: CMakeFiles/depthai_filters.dir/src/utils.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:132: CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:146: CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_filters.dir/build.make:104: CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o] Interrupción
+gmake[2]: *** wait: No hay ningún proceso hijo.  Alto.
+gmake[2]: *** Se espera a que terminen otras tareas....
+gmake[2]: *** wait: No hay ningún proceso hijo.  Alto.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/depthai_filters.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupción

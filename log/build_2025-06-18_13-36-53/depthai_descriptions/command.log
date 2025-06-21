@@ -1,0 +1,4 @@
+Invoking command in '/home/leoni/oak_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_descriptions -- -j16 -l16
+Invoked command in '/home/leoni/oak_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_descriptions -- -j16 -l16
+Invoking command in '/home/leoni/oak_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_descriptions
+Invoked command in '/home/leoni/oak_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_descriptions

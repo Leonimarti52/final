@@ -1,0 +1,12 @@
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/AutoFocusCtrl.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/HandLandmark.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/HandLandmarkArray.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/ImuWithMagneticField.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackedFeature.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackedFeatures.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/SpatialDetection.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/SpatialDetectionArray.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackDetection2D.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:msg/TrackDetection2DArray.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:srv/TriggerNamed.idl
+/home/leoni/oak_ws/build/depthai_ros_msgs/rosidl_adapter/depthai_ros_msgs:srv/NormalizedImageCrop.idl

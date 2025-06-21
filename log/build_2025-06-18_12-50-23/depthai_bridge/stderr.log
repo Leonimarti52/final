@@ -1,0 +1,11 @@
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:90: CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:76: CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:104: CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:132: CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:146: CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:174: CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:188: CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:118: CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o] Interrupción
+gmake[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:160: CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o] Interrupción
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/depthai_bridge.dir/all] Interrupción
+gmake: *** [Makefile:146: all] Interrupción

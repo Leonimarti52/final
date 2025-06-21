@@ -1,0 +1,553 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74d991c10dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74d991d6a260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74d991d6a260>>)
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.175s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leoni/oak_ws'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/leoni) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leoni' with type 'ros.ament_python' and name 'leoni'
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/leoni/oak_ws/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 365 installed packages in /opt/ros/humble
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai_descriptions', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai_descriptions', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai_ros_msgs', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'leoni' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'leoni' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/leoni', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/leoni', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/leoni', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai_bridge', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai_filters', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai_filters', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai_ros_driver', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'depthai-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/oak_ws/build/depthai-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/oak_ws/install/depthai-ros', 'merge_install': False, 'path': '/home/leoni/oak_ws/src/depthai-ros/depthai-ros', 'symlink_install': False, 'test_result_base': None}
+[0.247s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_msgs' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_msgs'
+[0.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai_descriptions' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai_descriptions'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoni/oak_ws/src/leoni' with build type 'ament_python'
+[0.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('leoni', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/leoni/share/leoni/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/leoni/share/leoni/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/leoni/share/leoni/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_msgs -- -j16 -l16
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_descriptions -- -j16 -l16
+[0.469s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoni/oak_ws/src/leoni'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_descriptions -- -j16 -l16
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_descriptions
+[0.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_descriptions
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions' for CMake module files
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions' for CMake config files
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/bin'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/bin'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/bin'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_descriptions/bin'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_msgs -- -j16 -l16
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_msgs
+[0.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs' for CMake module files
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/oak_ws/install/leoni:/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_msgs
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs' for CMake config files
+[0.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[0.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[0.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs' for CMake module files
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs' for CMake config files
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib'
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_msgs/bin'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[0.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[0.601s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai_bridge' with build type 'ament_cmake'
+[0.601s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai_bridge'
+[0.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai_filters' with build type 'ament_cmake'
+[0.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai_filters'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_bridge': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_bridge -- -j16 -l16
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_filters -- -j16 -l16
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_filters' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_filters -- -j16 -l16
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_filters
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_bridge' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_bridge -- -j16 -l16
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_bridge': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_bridge
+[0.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters' for CMake module files
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters' for CMake config files
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_filters' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_filters
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib'
+[0.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/bin'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.bash'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters' for CMake module files
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters' for CMake config files
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib'
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/bin'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/lib/python3.10/site-packages'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_filters/bin'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.bash'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.zsh'
+[0.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[0.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge' for CMake module files
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_bridge' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/leoni:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/home/leoni/oak_ws/install/depthai_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_bridge
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge' for CMake config files
+[0.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib'
+[0.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib/python3.10/site-packages'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/bin'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.sh'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.bash'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[0.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[0.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge' for CMake module files
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge' for CMake config files
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib'
+[0.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/bin'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/lib/python3.10/site-packages'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_bridge/bin'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.bash'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[0.712s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_driver' with build type 'ament_cmake'
+[0.712s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai_ros_driver'
+[0.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_driver -- -j16 -l16
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/src/leoni': PYTHONPATH=/home/leoni/oak_ws/build/leoni/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leoni build --build-base /home/leoni/oak_ws/build/leoni/build install --record /home/leoni/oak_ws/build/leoni/install.log --single-version-externally-managed install_data
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni' for CMake module files
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/src/leoni' returned '0': PYTHONPATH=/home/leoni/oak_ws/build/leoni/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leoni build --build-base /home/leoni/oak_ws/build/leoni/build install --record /home/leoni/oak_ws/build/leoni/install.log --single-version-externally-managed install_data
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni/lib'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni/bin'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni/lib/pkgconfig/leoni.pc'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages'
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('leoni', 'pythonpath')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/leoni/share/leoni/hook/pythonpath.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/leoni/share/leoni/hook/pythonpath.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/leoni/share/leoni/hook/pythonpath.sh'
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/leoni/bin'
+[0.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leoni)
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/leoni/share/leoni/package.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/leoni/share/leoni/package.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/leoni/share/leoni/package.sh'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/leoni/share/leoni/package.bash'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/leoni/share/leoni/package.zsh'
+[0.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/leoni/share/colcon-core/packages/leoni)
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_driver -- -j16 -l16
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_driver
+[1.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver' for CMake module files
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_bridge/lib:/home/leoni/oak_ws/install/depthai_ros_msgs/lib:/home/leoni/oak_ws/install/depthai_ros_driver/lib:/home/leoni/oak_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_driver
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver' for CMake config files
+[1.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib'
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/bin'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib/python3.10/site-packages'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/bin'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[1.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[1.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver' for CMake module files
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver' for CMake config files
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib'
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/bin'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/lib/python3.10/site-packages'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai_ros_driver/bin'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[1.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[1.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/oak_ws/src/depthai-ros/depthai-ros' with build type 'ament_cmake'
+[1.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/oak_ws/src/depthai-ros/depthai-ros'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai-ros -- -j16 -l16
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai-ros -- -j16 -l16
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/oak_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai-ros
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros' for CMake module files
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/oak_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_driver:/home/leoni/oak_ws/install/depthai_filters:/home/leoni/oak_ws/install/depthai_bridge:/home/leoni/oak_ws/install/depthai_ros_msgs:/home/leoni/oak_ws/install/depthai_descriptions:/home/leoni/oak_ws/install/depthai-ros:/home/leoni/oak_ws/install/leoni:/opt/ros/humble GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/leoni/oak_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai-ros
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/bin'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/lib/python3.10/site-packages'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/bin'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.bash'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.zsh'
+[1.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[1.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros' for CMake module files
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros' for CMake config files
+[1.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/bin'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/oak_ws/install/depthai-ros/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/oak_ws/install/depthai-ros/share/depthai-ros/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/oak_ws/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[1.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.094s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.097s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.108s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/oak_ws/install/local_setup.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/oak_ws/install/_local_setup_util_ps1.py'
+[1.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/oak_ws/install/setup.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/oak_ws/install/local_setup.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/oak_ws/install/_local_setup_util_sh.py'
+[1.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/oak_ws/install/setup.sh'
+[1.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/oak_ws/install/local_setup.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/oak_ws/install/setup.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/oak_ws/install/local_setup.zsh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/oak_ws/install/setup.zsh'

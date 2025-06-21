@@ -1,0 +1,9 @@
+[console_scripts]
+cam = leoni.cam:main
+duo1 = leoni.du:main
+fu = leoni.fution:main
+imu = leoni.imu:main
+oakd = leoni.do:main
+point = leoni.point:main
+vi = leoni.view:main
+

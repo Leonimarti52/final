@@ -1,0 +1,54 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdepthai_bridge.so[0m
+[100%] Built target depthai_bridge
+-- Install configuration: ""
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.sh
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.dsv
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include/
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImuConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/depthaiUtility.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackedFeaturesConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackDetectionConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TFPublisher.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/DisparityConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImgDetectionConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackSpatialDetectionConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImageConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/SpatialDetectionConverter.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/BridgePublisher.hpp
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/lib/libdepthai_bridge.so
+-- Set runtime path of "/home/leoni/oak_ws/install/depthai_bridge/lib/libdepthai_bridge.so" to ""
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets-noconfig.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/rviz
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/rviz/pointCloud.rviz
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/package_run_dependencies/depthai_bridge
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/parent_prefix_path/depthai_bridge
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/path.sh
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/path.dsv
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.bash
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.sh
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.zsh
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.dsv
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.dsv
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/packages/depthai_bridge
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport-noconfig.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig-version.cmake
+-- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.xml

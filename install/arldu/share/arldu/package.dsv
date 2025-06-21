@@ -1,0 +1,6 @@
+source;share/arldu/hook/pythonpath.ps1
+source;share/arldu/hook/pythonpath.dsv
+source;share/arldu/hook/pythonpath.sh
+source;share/arldu/hook/ament_prefix_path.ps1
+source;share/arldu/hook/ament_prefix_path.dsv
+source;share/arldu/hook/ament_prefix_path.sh

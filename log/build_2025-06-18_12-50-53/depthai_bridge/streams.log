@@ -1,0 +1,58 @@
+[0.005s] Invoking command in '/home/leoni/oak_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_bridge -- -j16 -l16
+[0.040s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[0.040s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[0.040s] [ 30%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[0.040s] [ 40%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[0.040s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackDetectionConverter.cpp.o[0m
+[0.040s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o[0m
+[0.041s] [ 70%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackSpatialDetectionConverter.cpp.o[0m
+[0.041s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[0.042s] [ 90%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o[0m
+[14.160s] [100%] [32m[1mLinking CXX shared library libdepthai_bridge.so[0m
+[14.691s] [100%] Built target depthai_bridge
+[14.701s] Invoked command in '/home/leoni/oak_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_bridge -- -j16 -l16
+[14.704s] Invoking command in '/home/leoni/oak_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_bridge
+[14.710s] -- Install configuration: ""
+[14.710s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.sh
+[14.710s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.dsv
+[14.711s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include/
+[14.711s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge
+[14.711s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImuConverter.hpp
+[14.711s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/depthaiUtility.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackedFeaturesConverter.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackDetectionConverter.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TFPublisher.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/DisparityConverter.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImgDetectionConverter.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/TrackSpatialDetectionConverter.hpp
+[14.712s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/ImageConverter.hpp
+[14.713s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/SpatialDetectionConverter.hpp
+[14.713s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/include//depthai_bridge/BridgePublisher.hpp
+[14.713s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/lib/libdepthai_bridge.so
+[14.716s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_bridge/lib/libdepthai_bridge.so" to ""
+[14.716s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets.cmake
+[14.716s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets-noconfig.cmake
+[14.717s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/rviz
+[14.717s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/rviz/pointCloud.rviz
+[14.717s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/package_run_dependencies/depthai_bridge
+[14.717s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/parent_prefix_path/depthai_bridge
+[14.717s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.sh
+[14.718s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.dsv
+[14.718s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/path.sh
+[14.718s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/environment/path.dsv
+[14.718s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.bash
+[14.718s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.sh
+[14.719s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.zsh
+[14.719s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/local_setup.dsv
+[14.719s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.dsv
+[14.719s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/ament_index/resource_index/packages/depthai_bridge
+[14.719s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport.cmake
+[14.720s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport-noconfig.cmake
+[14.720s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[14.720s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.720s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[14.721s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.721s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig.cmake
+[14.721s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig-version.cmake
+[14.721s] -- Installing: /home/leoni/oak_ws/install/depthai_bridge/share/depthai_bridge/package.xml
+[14.724s] Invoked command in '/home/leoni/oak_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_bridge

@@ -1,0 +1,6 @@
+source;share/leoni/hook/pythonpath.ps1
+source;share/leoni/hook/pythonpath.dsv
+source;share/leoni/hook/pythonpath.sh
+source;share/leoni/hook/ament_prefix_path.ps1
+source;share/leoni/hook/ament_prefix_path.dsv
+source;share/leoni/hook/ament_prefix_path.sh

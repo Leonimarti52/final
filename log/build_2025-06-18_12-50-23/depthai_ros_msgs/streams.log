@@ -1,0 +1,572 @@
+[0.006s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/oak_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/leoni/oak_ws/install/depthai_ros_msgs
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.336s] -- ------------------------------------------
+[0.336s] -- Depthai ROS MSGS/INTERFACES is being built using AMENT.
+[0.336s] -- ------------------------------------------
+[0.337s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.355s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.358s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.411s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.421s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.650s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.059s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.060s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.075s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.075s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.075s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.090s] -- Found PythonExtra: .so  
+[1.138s] -- Configuring done
+[1.170s] -- Generating done
+[1.178s] -- Build files have been written to: /home/leoni/oak_ws/build/depthai_ros_msgs
+[1.184s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/oak_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/leoni/oak_ws/install/depthai_ros_msgs
+[1.184s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_msgs -- -j16 -l16
+[1.209s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.215s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.218s] [  1%] Built target ament_cmake_python_copy_depthai_ros_msgs
+[1.354s] running egg_info
+[1.355s] creating depthai_ros_msgs.egg-info
+[1.355s] writing depthai_ros_msgs.egg-info/PKG-INFO
+[1.355s] writing dependency_links to depthai_ros_msgs.egg-info/dependency_links.txt
+[1.355s] writing top-level names to depthai_ros_msgs.egg-info/top_level.txt
+[1.355s] writing manifest file 'depthai_ros_msgs.egg-info/SOURCES.txt'
+[1.356s] reading manifest file 'depthai_ros_msgs.egg-info/SOURCES.txt'
+[1.356s] writing manifest file 'depthai_ros_msgs.egg-info/SOURCES.txt'
+[1.371s] [  1%] Built target ament_cmake_python_build_depthai_ros_msgs_egg
+[1.877s] [  1%] Built target depthai_ros_msgs__cpp
+[1.886s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.888s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.888s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.903s] [  4%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/track_detection2_d__functions.c.o[0m
+[1.903s] [  6%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/hand_landmark__functions.c.o[0m
+[1.903s] [  6%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.c.o[0m
+[1.903s] [  7%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.c.o[0m
+[1.903s] [  8%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/tracked_feature__functions.c.o[0m
+[1.903s] [  8%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__functions.c.o[0m
+[1.903s] [  9%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/tracked_features__functions.c.o[0m
+[1.903s] [ 10%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/spatial_detection__functions.c.o[0m
+[1.903s] [ 11%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.c.o[0m
+[1.904s] [ 12%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/srv/detail/trigger_named__functions.c.o[0m
+[1.904s] [ 13%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.c.o[0m
+[1.906s] [ 13%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/depthai_ros_msgs/msg/detail/track_detection2_d_array__functions.c.o[0m
+[1.979s] [ 14%] [32m[1mLinking C shared library libdepthai_ros_msgs__rosidl_generator_c.so[0m
+[2.005s] [ 14%] Built target depthai_ros_msgs__rosidl_generator_c
+[2.012s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.012s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.012s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.462s] [ 18%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/auto_focus_ctrl__type_support.cpp.o[0m
+[2.462s] [ 19%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field__type_support.cpp.o[0m
+[2.462s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/hand_landmark__type_support.cpp.o[0m
+[2.462s] [ 21%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/hand_landmark_array__type_support.cpp.o[0m
+[2.462s] [ 21%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/tracked_feature__type_support.cpp.o[0m
+[2.462s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/tracked_features__type_support.cpp.o[0m
+[2.462s] [ 24%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/spatial_detection_array__type_support.cpp.o[0m
+[2.462s] [ 24%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/spatial_detection__type_support.cpp.o[0m
+[2.463s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/track_detection2_d__type_support.cpp.o[0m
+[2.463s] [ 26%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/msg/track_detection2_d_array__type_support.cpp.o[0m
+[2.463s] [ 26%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/srv/trigger_named__type_support.cpp.o[0m
+[2.767s] [ 27%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/auto_focus_ctrl__type_support.cpp.o[0m
+[2.808s] [ 27%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/hand_landmark__type_support.cpp.o[0m
+[2.838s] [ 28%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/hand_landmark_array__type_support.cpp.o[0m
+[2.841s] [ 29%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/imu_with_magnetic_field__type_support.cpp.o[0m
+[2.842s] [ 30%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/depthai_ros_msgs/srv/normalized_image_crop__type_support.cpp.o[0m
+[2.842s] [ 31%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/tracked_feature__type_support.cpp.o[0m
+[2.844s] [ 32%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/tracked_features__type_support.cpp.o[0m
+[2.844s] [ 33%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/spatial_detection__type_support.cpp.o[0m
+[2.844s] [ 33%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/spatial_detection_array__type_support.cpp.o[0m
+[2.845s] [ 34%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/track_detection2_d__type_support.cpp.o[0m
+[2.845s] [ 35%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/msg/track_detection2_d_array__type_support.cpp.o[0m
+[2.848s] [ 36%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/srv/trigger_named__type_support.cpp.o[0m
+[2.848s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/depthai_ros_msgs/srv/normalized_image_crop__type_support.cpp.o[0m
+[2.857s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.cpp.o[0m
+[2.857s] [ 38%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/hand_landmark__type_support.cpp.o[0m
+[2.879s] [ 39%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.cpp.o[0m
+[2.883s] [ 40%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.cpp.o[0m
+[2.886s] [ 41%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/tracked_feature__type_support.cpp.o[0m
+[2.890s] [ 42%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/tracked_features__type_support.cpp.o[0m
+[2.891s] [ 42%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/spatial_detection__type_support.cpp.o[0m
+[2.894s] [ 43%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.cpp.o[0m
+[2.894s] [ 44%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_c.so[0m
+[2.900s] [ 45%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.cpp.o[0m
+[2.912s] [ 46%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.cpp.o[0m
+[2.914s] [ 47%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/srv/detail/trigger_named__type_support.cpp.o[0m
+[2.951s] [ 47%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[2.999s] [ 48%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.cpp.o[0m
+[3.008s] [ 49%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/auto_focus_ctrl__type_support.cpp.o[0m
+[3.170s] [ 50%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.c.o[0m
+[3.215s] [ 51%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/hand_landmark__type_support.c.o[0m
+[3.225s] [ 52%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_cpp.so[0m
+[3.273s] [ 53%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.c.o[0m
+[3.283s] [ 54%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support_c.cpp.o[0m
+[3.283s] [ 54%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[3.295s] [ 54%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.c.o[0m
+[3.325s] [ 55%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/hand_landmark__type_support_c.cpp.o[0m
+[3.348s] [ 56%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/tracked_feature__type_support.c.o[0m
+[3.398s] [ 57%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/hand_landmark__type_support.cpp.o[0m
+[3.400s] [ 58%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/tracked_features__type_support.c.o[0m
+[3.421s] [ 58%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support_c.cpp.o[0m
+[3.449s] [ 59%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/hand_landmark_array__type_support.cpp.o[0m
+[3.453s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support_c.cpp.o[0m
+[3.453s] [ 61%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/spatial_detection__type_support.c.o[0m
+[3.468s] [ 62%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.c.o[0m
+[3.500s] [ 63%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/imu_with_magnetic_field__type_support.cpp.o[0m
+[3.505s] [ 64%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/tracked_feature__type_support_c.cpp.o[0m
+[3.514s] [ 65%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.c.o[0m
+[3.525s] [ 66%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/tracked_feature__type_support.cpp.o[0m
+[3.525s] [ 67%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/tracked_features__type_support_c.cpp.o[0m
+[3.551s] [ 68%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.c.o[0m
+[3.555s] [ 68%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/srv/detail/trigger_named__type_support.c.o[0m
+[3.569s] [ 69%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.c.o[0m
+[3.569s] [ 70%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/spatial_detection__type_support_c.cpp.o[0m
+[3.569s] [ 70%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/tracked_features__type_support.cpp.o[0m
+[3.602s] [ 71%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.609s] [ 72%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support_c.cpp.o[0m
+[3.613s] [ 73%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/spatial_detection__type_support.cpp.o[0m
+[3.616s] [ 74%] [32m[1mLinking C shared library libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.674s] [ 74%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[3.680s] [ 74%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/track_detection2_d__type_support_c.cpp.o[0m
+[3.728s] [ 74%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[3.738s] [ 75%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support_c.cpp.o[0m
+[3.754s] [ 76%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/spatial_detection_array__type_support.cpp.o[0m
+[3.816s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/track_detection2_d__type_support.cpp.o[0m
+[3.898s] [ 78%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/msg/detail/dds_fastrtps/track_detection2_d_array__type_support.cpp.o[0m
+[3.935s] [ 79%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/srv/detail/dds_fastrtps/trigger_named__type_support.cpp.o[0m
+[3.992s] [ 79%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/depthai_ros_msgs/srv/detail/dds_fastrtps/normalized_image_crop__type_support.cpp.o[0m
+[4.005s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/srv/detail/trigger_named__type_support_c.cpp.o[0m
+[4.023s] [ 81%] [32mBuilding CXX object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support_c.cpp.o[0m
+[4.321s] [ 82%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.369s] [ 82%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[4.382s] [ 83%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.431s] [ 83%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[4.443s] [ 83%] Built target depthai_ros_msgs
+[4.462s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.554s] [ 84%] Built target depthai_ros_msgs__py
+[5.571s] [ 87%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_hand_landmark_array_s.c.o[0m
+[5.571s] [ 87%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_tracked_features_s.c.o[0m
+[5.571s] [ 87%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_tracked_feature_s.c.o[0m
+[5.571s] [ 87%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_spatial_detection_s.c.o[0m
+[5.571s] [ 88%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_auto_focus_ctrl_s.c.o[0m
+[5.571s] [ 89%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_hand_landmark_s.c.o[0m
+[5.571s] [ 90%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_imu_with_magnetic_field_s.c.o[0m
+[5.571s] [ 91%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_spatial_detection_array_s.c.o[0m
+[5.571s] [ 92%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_track_detection2_d_s.c.o[0m
+[5.571s] [ 92%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/msg/_track_detection2_d_array_s.c.o[0m
+[5.571s] [ 93%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/srv/_trigger_named_s.c.o[0m
+[5.572s] [ 94%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/depthai_ros_msgs/srv/_normalized_image_crop_s.c.o[0m
+[5.713s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/libdepthai_ros_msgs__rosidl_generator_py.so[0m
+[5.743s] [ 95%] Built target depthai_ros_msgs__rosidl_generator_py
+[5.756s] [ 97%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.756s] [ 97%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.756s] [ 97%] [32mBuilding C object CMakeFiles/depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.844s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.845s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.847s] [100%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.872s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[5.873s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext
+[5.874s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.882s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_ros_msgs -- -j16 -l16
+[5.883s] Invoking command in '/home/leoni/oak_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_msgs
+[5.888s] -- Install configuration: ""
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/depthai_ros_msgs
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/normalized_image_crop.h
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/trigger_named.h
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__functions.c
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.h
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__struct.h
+[5.888s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.c
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__type_support.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__functions.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d_array.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/auto_focus_ctrl.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_features.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark_array.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__functions.c
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__functions.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__struct.h
+[5.889s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__functions.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__functions.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__functions.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__functions.c
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__struct.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__functions.h
+[5.890s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__functions.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.c
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.c
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__functions.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__functions.c
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_feature.h
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.sh
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.dsv
+[5.891s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+[5.891s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so" to ""
+[5.891s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.891s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.892s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.892s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_fastrtps_c.h
+[5.892s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[5.892s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.892s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.892s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/trigger_named.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/normalized_image_crop.hpp
+[5.893s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
+[5.893s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_feature.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark_array.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/hand_landmark.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/track_detection2_d_array.hpp
+[5.893s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/tracked_features.hpp
+[5.893s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__traits.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__struct.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__builder.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__struct.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__traits.hpp
+[5.894s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__traits.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__traits.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp
+[5.895s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__builder.hpp
+[5.896s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.896s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.896s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/dds_fastrtps
+[5.896s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.896s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/dds_fastrtps
+[5.896s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.897s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.897s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.897s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.897s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.c
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_c.h
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__type_support.c
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_c.h
+[5.897s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.897s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.c
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_c.h
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.c
+[5.897s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_introspection_c.h
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__type_support.c
+[5.898s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+[5.898s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+[5.899s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so" to ""
+[5.899s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs
+[5.899s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv
+[5.899s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg
+[5.899s] -- Up-to-date: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_cpp.hpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d_array__type_support.cpp
+[5.899s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__type_support.cpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_cpp.hpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__rosidl_typesupport_introspection_cpp.hpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.cpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_features__type_support.cpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/track_detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.cpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/tracked_feature__type_support.cpp
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[5.900s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.900s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+[5.901s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.sh
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.dsv
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.11.2-py3.10.egg-info
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.11.2-py3.10.egg-info/top_level.txt
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.11.2-py3.10.egg-info/PKG-INFO
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.11.2-py3.10.egg-info/dependency_links.txt
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs-2.11.2-py3.10.egg-info/SOURCES.txt
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/libdepthai_ros_msgs__rosidl_generator_py.so
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_normalized_image_crop.py
+[5.901s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_normalized_image_crop_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/__init__.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_trigger_named_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_trigger_named.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_features_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_array.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_array.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_array_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_feature_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_imu_with_magnetic_field.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_auto_focus_ctrl_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d_array.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/__init__.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_feature.py
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_s.c
+[5.902s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_auto_focus_ctrl.py
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark.py
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_imu_with_magnetic_field_s.c
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_array_s.c
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_features.py
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d_array_s.c
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/__init__.py
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_c.c
+[5.903s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/_depthai_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.932s] Listing '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/__init__.py'...
+[5.932s] Listing '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/__init__.py'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_auto_focus_ctrl.py'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark.py'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_hand_landmark_array.py'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_imu_with_magnetic_field.py'...
+[5.932s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_spatial_detection_array.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_track_detection2_d_array.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_feature.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/msg/_tracked_features.py'...
+[5.933s] Listing '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/__init__.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_normalized_image_crop.py'...
+[5.933s] Compiling '/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/srv/_trigger_named.py'...
+[5.935s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.935s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.935s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.935s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.935s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.936s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so
+[5.936s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_py.so" to ""
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/ImuWithMagneticField.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeature.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeatures.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackDetection2D.idl
+[5.936s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackDetection2DArray.idl
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.idl
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.idl
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/ImuWithMagneticField.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeature.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackedFeatures.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackDetection2D.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/TrackDetection2DArray.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.srv
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Request.msg
+[5.937s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Response.msg
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.srv
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Request.msg
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Response.msg
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/ament_index/resource_index/package_run_dependencies/depthai_ros_msgs
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/ament_index/resource_index/parent_prefix_path/depthai_ros_msgs
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.sh
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.dsv
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.sh
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.dsv
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.bash
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.sh
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.zsh
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.dsv
+[5.938s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/ament_index/resource_index/packages/depthai_ros_msgs
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_cppExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.939s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_pyExport.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/export_depthai_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig.cmake
+[5.940s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig-version.cmake
+[5.941s] -- Installing: /home/leoni/oak_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.xml
+[5.942s] Invoked command in '/home/leoni/oak_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_ros_msgs

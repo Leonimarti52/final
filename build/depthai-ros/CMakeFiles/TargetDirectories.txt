@@ -1,0 +1,9 @@
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/uninstall.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/depthai-ros_uninstall.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/test.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/edit_cache.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/rebuild_cache.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/list_install_components.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/install.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/install/local.dir
+/home/leoni/oak_ws/build/depthai-ros/CMakeFiles/install/strip.dir

@@ -1,0 +1,37 @@
+[0.728s] Invoking command in '/home/leoni/oak_ws/src/arldu': PYTHONPATH=/home/leoni/oak_ws/build/arldu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arldu build --build-base /home/leoni/oak_ws/build/arldu/build install --record /home/leoni/oak_ws/build/arldu/install.log --single-version-externally-managed install_data
+[0.917s] running egg_info
+[0.918s] creating ../../build/arldu/arldu.egg-info
+[0.918s] writing ../../build/arldu/arldu.egg-info/PKG-INFO
+[0.918s] writing dependency_links to ../../build/arldu/arldu.egg-info/dependency_links.txt
+[0.918s] writing entry points to ../../build/arldu/arldu.egg-info/entry_points.txt
+[0.918s] writing requirements to ../../build/arldu/arldu.egg-info/requires.txt
+[0.918s] writing top-level names to ../../build/arldu/arldu.egg-info/top_level.txt
+[0.918s] writing manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+[0.920s] reading manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../build/arldu/arldu.egg-info/SOURCES.txt'
+[0.920s] running build
+[0.920s] running build_py
+[0.921s] creating /home/leoni/oak_ws/build/arldu/build
+[0.921s] creating /home/leoni/oak_ws/build/arldu/build/lib
+[0.921s] creating /home/leoni/oak_ws/build/arldu/build/lib/arldu
+[0.921s] copying arldu/comu.py -> /home/leoni/oak_ws/build/arldu/build/lib/arldu
+[0.921s] copying arldu/__init__.py -> /home/leoni/oak_ws/build/arldu/build/lib/arldu
+[0.921s] running install
+[0.921s] running install_lib
+[0.921s] creating /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+[0.921s] copying /home/leoni/oak_ws/build/arldu/build/lib/arldu/comu.py -> /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+[0.921s] copying /home/leoni/oak_ws/build/arldu/build/lib/arldu/__init__.py -> /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu
+[0.922s] byte-compiling /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu/comu.py to comu.cpython-310.pyc
+[0.922s] byte-compiling /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu/__init__.py to __init__.cpython-310.pyc
+[0.922s] running install_data
+[0.922s] creating /home/leoni/oak_ws/install/arldu/share/ament_index
+[0.922s] creating /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index
+[0.922s] creating /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index/packages
+[0.922s] copying resource/arldu -> /home/leoni/oak_ws/install/arldu/share/ament_index/resource_index/packages
+[0.923s] copying package.xml -> /home/leoni/oak_ws/install/arldu/share/arldu
+[0.923s] running install_egg_info
+[0.924s] Copying ../../build/arldu/arldu.egg-info to /home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages/arldu-0.0.0-py3.10.egg-info
+[0.924s] running install_scripts
+[0.939s] Installing node script to /home/leoni/oak_ws/install/arldu/lib/arldu
+[0.939s] writing list of installed files to '/home/leoni/oak_ws/build/arldu/install.log'
+[0.966s] Invoked command in '/home/leoni/oak_ws/src/arldu' returned '0': PYTHONPATH=/home/leoni/oak_ws/build/arldu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/arldu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arldu build --build-base /home/leoni/oak_ws/build/arldu/build install --record /home/leoni/oak_ws/build/arldu/install.log --single-version-externally-managed install_data

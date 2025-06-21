@@ -1,0 +1,24 @@
+[0.723s] Invoking command in '/home/leoni/oak_ws/src/leoni': PYTHONPATH=/home/leoni/oak_ws/build/leoni/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leoni build --build-base /home/leoni/oak_ws/build/leoni/build install --record /home/leoni/oak_ws/build/leoni/install.log --single-version-externally-managed install_data
+[0.894s] running egg_info
+[0.894s] writing ../../build/leoni/leoni.egg-info/PKG-INFO
+[0.894s] writing dependency_links to ../../build/leoni/leoni.egg-info/dependency_links.txt
+[0.894s] writing entry points to ../../build/leoni/leoni.egg-info/entry_points.txt
+[0.894s] writing requirements to ../../build/leoni/leoni.egg-info/requires.txt
+[0.894s] writing top-level names to ../../build/leoni/leoni.egg-info/top_level.txt
+[0.896s] reading manifest file '../../build/leoni/leoni.egg-info/SOURCES.txt'
+[0.901s] writing manifest file '../../build/leoni/leoni.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.901s] running install
+[0.901s] running install_lib
+[0.901s] running install_data
+[0.901s] running install_egg_info
+[0.902s] removing '/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages/leoni-0.0.0-py3.10.egg-info' (and everything under it)
+[0.902s] Copying ../../build/leoni/leoni.egg-info to /home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages/leoni-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.921s] Installing cam script to /home/leoni/oak_ws/install/leoni/lib/leoni
+[0.921s] Installing duo1 script to /home/leoni/oak_ws/install/leoni/lib/leoni
+[0.921s] Installing oakd script to /home/leoni/oak_ws/install/leoni/lib/leoni
+[0.921s] Installing point script to /home/leoni/oak_ws/install/leoni/lib/leoni
+[0.922s] writing list of installed files to '/home/leoni/oak_ws/build/leoni/install.log'
+[0.957s] Invoked command in '/home/leoni/oak_ws/src/leoni' returned '0': PYTHONPATH=/home/leoni/oak_ws/build/leoni/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/oak_ws/install/leoni/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leoni build --build-base /home/leoni/oak_ws/build/leoni/build install --record /home/leoni/oak_ws/build/leoni/install.log --single-version-externally-managed install_data

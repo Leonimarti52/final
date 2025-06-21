@@ -1,0 +1,59 @@
+[0.005s] Invoking command in '/home/leoni/oak_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_filters -- -j16 -l16
+[0.037s] [ 11%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[0.038s] [ 22%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[0.038s] [ 33%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[0.038s] [ 44%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[0.039s] [ 55%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[0.039s] [ 66%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[0.039s] [ 77%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/thermal_temp.cpp.o[0m
+[0.043s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[22.616s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[26.144s] [100%] Built target depthai_filters
+[26.151s] Invoked command in '/home/leoni/oak_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leoni/oak_ws/build/depthai_filters -- -j16 -l16
+[26.153s] Invoking command in '/home/leoni/oak_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_filters
+[26.157s] -- Install configuration: ""
+[26.157s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch
+[26.157s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+[26.157s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/thermal_temp.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[26.158s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[26.159s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/lib/libdepthai_filters.so
+[26.176s] -- Set runtime path of "/home/leoni/oak_ws/install/depthai_filters/lib/libdepthai_filters.so" to ""
+[26.176s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/utils.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/features_3d.hpp
+[26.177s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/include/depthai_filters/thermal_temp.hpp
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/environment/path.sh
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/local_setup.bash
+[26.178s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/local_setup.sh
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.dsv
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.179s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[26.180s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[26.180s] -- Installing: /home/leoni/oak_ws/install/depthai_filters/share/depthai_filters/package.xml
+[26.181s] Invoked command in '/home/leoni/oak_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/oak_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leoni/oak_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leoni/oak_ws/build/depthai_filters
